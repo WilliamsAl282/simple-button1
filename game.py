@@ -68,15 +68,15 @@ def main():
         else:
             button_color = (110,110,110)
 
-            pygame.draw.rect(screen, button_color, button)
+        pygame.draw.rect(screen, button_color, button)
 
-            screen.blit(surf, surf_rect)
+        screen.blit(surf, surf_rect)
 
 
-        circle_color = config.RED
+        # circle_color = config.RED
 
-        draw_circle(screen,535,520, 40, circle_color, 0)
-        draw_text(screen, "button", text_font, config.BLACK, 500,500)
+        # draw_circle(screen,535,520, 40, circle_color, 0)
+        # draw_text(screen, "button", text_font, config.BLACK, 500,500)
 
          
         
