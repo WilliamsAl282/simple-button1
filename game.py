@@ -29,6 +29,8 @@ def draw_text(screen, text,font,text_col,x,y):
 def draw_rectangle(screen, color, x, y, width, height):
     pygame.draw.rect(screen,color,x,y,width,height)
 
+def draw_circle(screen,color,)
+
 def main():
     screen = init_game()
     running = True
@@ -41,6 +43,7 @@ def main():
         screen.fill(config.WHITE) # Use color from config
         
         draw_text(screen, "hello", text_font, config.BLUE, 500,500 )
+
         pygame.display.flip()
 
         # Limit the frame rate to the specified frames per second (FPS)
