@@ -17,7 +17,7 @@ YELLOW = (255,255,0)
 WINDOW_WIDTH = 800
 WINDOW_HEIGHT = 600
 
-TITLE = ""
+TITLE = "Simple Button"
 
 # Frame rate (frames per second)
 FPS = 60
